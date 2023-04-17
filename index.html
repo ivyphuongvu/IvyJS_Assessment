@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" href="new.css" />
+    <script src="https://kit.fontawesome.com/366fb930ad.js" crossorigin="anonymous"></script>
+    <title>Registration Form </title>
+  </head>
+  <body>
+    <!--Start of website -->
+    <div class="container"> 
+        <!-- Left side -->
+      <div class="left">
+        <div class="logo">
+          <img src="glen eldon red logo.jpg" height = 150px alt="" />
+        </div>
+      
+     <div class="text">
+          Sign up today to become a member and receive special offers! <br />
+      
+        </div>
+
+        <div class="background"></div>
+        
+      </div>
+      <form id="form" name="form" action="/" method = "POST">
+        <div class="topright">
+          <div class="title">Sign up Here</div> <br /> <br/>
+          
+          
+
+        <!-- User Name-->
+        <div>
+          <label for="username">User Name</label>
+          <i class="fas fa-user"></i>
+          <input
+            type="text" name="username" id="username" placeholder="John Smith" />
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- Date of Birth-->
+        <div>
+          <label for="DOB"> Date of Birth </label>
+          <i class="fa-sharp fa-regular fa-calendar"></i>
+          <input type="date" name="DOB"  id="DOB" placeholder="30/01/1901" />
+          
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        
+        </div>
+
+
+        <!-- Phone -->
+         <div>
+          <label for="phone"> Phone Number </label>
+          <i class="fa-solid fa-phone"></i>
+          <input type="number" name="phone" id="phone" placeholder="0412345678" />
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        
+        </div>
+        
+        <!-- Email-->
+
+        <div>
+          <label for="email">Email</label>
+          <i class="far fa-envelope"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="johnsmith@gmail.com"
+          />
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        
+        <!-- Password-->
+
+        <div>
+          <label for="password">Password</label>
+          <i class="fas fa-lock"></i>
+          <input type="password" name="psw" id="psw" placeholder="Password"     
+          
+         
+          />
+            
+          <i class="fas fa-exclamation-circle failure-icon"></i>
+          <i class="far fa-check-circle success-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <button type="submit" id="signup" >Sign Up </button>
+      </form>
+    </div> <!--End of website -->
+  </body>
+  <script src="new.js"></script>
+</html>
